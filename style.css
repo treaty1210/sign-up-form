@@ -99,6 +99,7 @@ body {
 .signUpForm {
     align-items: flex-start;
     padding-top: 5%;
+    flex-direction: row;
 }
 
 .signUpButton {
@@ -106,4 +107,17 @@ body {
     padding-top: 5%;
 }
 
+.firstCol, .secondCol {
+    display: flex;
+    flex-direction: column;
+}
 
+form {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.secondCol {
+    padding-left: 10vw;
+}
