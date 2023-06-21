@@ -2,3 +2,45 @@
     font-family: 'Norse-Bold';
     src: url(fonts/Norse-Bold.otf);
 }
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+html {
+    line-height: 1.15; /* 1 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+    font-family: 'Norse-Bold', sans-serif;
+  }
+
+/**
+* Remove the margin in all browsers.
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.left {
+    display: flex;
+    justify-content: center;
+    width: 20vw;
+}
+
+img {
+    height: 100vh;
+}
+
+.right {
+    display: flex;
+    justify-content: center;
+    width: 80vw;
+}
