@@ -31,13 +31,48 @@ body {
 
 .left {
     display: flex;
-    justify-content: center;
-    width: 20vw;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 33vw;
     background-image: url(./images/paul-hanaoka-XypC0Hi4vhs-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    color: white;
 }
 
+.dark-text, .dark-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, .2);
+    
+}
+
+.dark-text {
+    position: relative;
+    top: 25vh;
+    height: 15vh;
+}
+
+.dark-text > p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    text-align: center;
+}
+
+
+.image-footer {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-top: 5px;
+}
+
+.image-footer > a {
+    color: white
+}
 
 .right {
     display: flex;
