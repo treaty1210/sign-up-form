@@ -105,7 +105,7 @@ body {
 
 .signUpButton {
     align-items: flex-start;
-    padding-top: 5%;
+    padding-top: 2.5%;
 }
 
 .firstCol, .secondCol {
@@ -121,4 +121,29 @@ form {
 
 .secondCol {
     padding-left: 10vw;
+}
+
+.firstCol > *, .secondCol > * {
+    padding: 6px;
+}
+
+button {
+    background-color: #596D48;
+    color: white;
+    padding: 20px;
+    border: 1px solid #596D48;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.signUpMsg > p {
+    padding-top: 10px;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.signUpLink {
+    text-decoration: none;
+    color: #596D48;
+    font-weight: bold;
 }
