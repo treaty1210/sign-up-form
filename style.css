@@ -33,11 +33,11 @@ body {
     display: flex;
     justify-content: center;
     width: 20vw;
+    background-image: url(./images/paul-hanaoka-XypC0Hi4vhs-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-img {
-    height: 100vh;
-}
 
 .right {
     display: flex;
