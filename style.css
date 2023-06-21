@@ -10,7 +10,7 @@
 html {
     line-height: 1.15; /* 1 */
     -webkit-text-size-adjust: 100%; /* 2 */
-    font-family: 'Norse-Bold', sans-serif;
+    font-family: sans-serif;
   }
 
 /**
@@ -60,6 +60,7 @@ body {
     align-items: center;
     font-size: 3rem;
     text-align: center;
+    font-family: 'Norse-Bold';
 }
 
 
