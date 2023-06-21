@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up</title>
+    <script src="script.js" defer></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -32,24 +33,25 @@
 
                     <div class="firstCol">
                         <label for="first_name">First Name</label>
-                        <input type="text" id="first_name" required>
+                        <input type="text" id="first_name" placeholder="John" required>
 
                         <label for="email">Email</label>
-                        <input type="email" id="last_name" required>
+                        <input type="email" id="email" placeholder="johnsmith@email.com" required>
 
                         <label for="password">Password</label>
-                        <input type="text" id="phone" required minlength="6" maxlength="20">
+                        <input type="password" id="password" required minlength="6" maxlength="20">
+                        <p class="error"></p>
                     </div>
 
                     <div class="secondCol">
                         <label for="last_name">Last Name</label>
-                        <input type="text" id="last_name" required>
+                        <input type="text" id="last_name" placeholder="Smith" required>
 
                         <label for="phone">Phone Number</label>
-                        <input type="tel" id="phone" required>
+                        <input type="tel" id="phone" minlength="9" maxlength="12" placeholder="777-777-7777" required>
 
                         <label for="confirm_pass">Confirm Password</label>
-                        <input type="text" id="confirm_pass" required minlength="6" maxlength="20">
+                        <input type="password" id="confirm_pass" required minlength="6" maxlength="20">
                     </div>
 
 
@@ -59,7 +61,7 @@
 
             <div class="signUpButton">
                 <div class="signUpMsg">
-                    <button>Create Account</button>
+                    <button type="submit">Create Account</button>
                     <p>Already have an account? <a href="" class="signUpLink">Log in here.</a></p>
                 </div>
             </div>
